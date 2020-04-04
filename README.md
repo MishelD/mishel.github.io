@@ -1,2 +1,2 @@
-# mishel.github.io/index.html
+# mishel.github.io
 Portfolio
