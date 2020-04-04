@@ -1,6 +1,8 @@
 .title_shape{
-	width: 40%;
+	width: 502px;
+	height: 282px;
 }
 .title{
-	font: 32pt/37 MS Gothic;
+	font-family: 'Comfortaa', cursive;
+	font: 32pt/37;
 }
