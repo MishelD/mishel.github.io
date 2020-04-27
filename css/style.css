@@ -6,11 +6,10 @@ body{
 }
 
 .title{
-	background-image: /svg/title_shape.svg
+	background-image: /svg/title_shape.svg;
 	font-family: 'Comfortaa', cursive;
 	font: bold 49pt/54 Comfortaa;
 	color: #FEFEFE;
-	position: absolute;
-	top: 68px;
-	left: 197px;
+	padding-top: 70px;
+	padding-left: 127px;
 }
