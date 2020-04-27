@@ -6,8 +6,11 @@ body {
 }
 a {
 	text-decoration: none;
+	color: #FFF;
 }
 .menu {
+	display: flex;
+	justify-content: space-between;
 	margin: 0;
 	width: 100%;
 	position: fixed;
@@ -18,9 +21,26 @@ a {
 	background-color: #000;
 	color: #fff;
 }
+.menu a {
+	margin: 0;
+	height: 80%;
+}
 .menu h1 {
 	margin: 0;
 	padding-left: 100px;
+	position: relative;
+}
+.lists {
+	display: flex;
+	margin: 0;
+	list-style-type: none;
+}
+.lists li {
+	margin-right: 10px;
+	padding: 4px;
+	font-size: 10pt;
+	position: relative;
+	border: 2px solid #FFF;
 }
 .empy_banner {
 	margin-top: 50px;
