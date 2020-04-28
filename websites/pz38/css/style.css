@@ -8,11 +8,17 @@ a {
 	text-decoration: none;
 	color: #FFF;
 }
+.empy_banner a {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #151515;
+}
 .menu {
 	display: flex;
 	justify-content: space-between;
 	margin: 0;
 	width: 100%;
+	height: 40px;
 	position: fixed;
 	top: 0;
 
@@ -30,17 +36,62 @@ a {
 	padding-left: 100px;
 	position: relative;
 }
+.nav {
+	display: none;
+	margin: 0;
+	padding-left: 15px;
+	list-style-type: none;
+	position: absolute;
+}
+
+.nav li:first-child {
+	margin-top: 20px;
+}
+.nav li:not(:first-child) {
+	margin-top: 5px;
+}
+.lists div {
+	display: none;
+	background-color: #000;
+	border: 2px solid #D8D8D8;
+	position: absolute;
+	max-width: 300px;
+	margin-top: 20px;
+	margin-left: -150px;
+}
 .lists {
 	display: flex;
 	margin: 0;
 	list-style-type: none;
+	position: relative;
 }
 .lists li {
 	margin-right: 10px;
 	padding: 4px;
 	font-size: 10pt;
-	position: relative;
-	border: 2px solid #FFF;
+	text-align: center;
+	border: 2px solid;
+	border-color: #FFF;
+	background-color: #000;
+}
+.lists div li {
+	border: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.nav li {
+	background-color: #000;
+	text-align: center;
+	border-color: #D8D8D8;
+}
+.lists li:hover {
+	background-color: #2E2E2E;
+}
+.lists div li:hover {
+	background-color: #000;
+}
+.lists li:hover ul, .lists li:hover div {
+	display: block;
 }
 .empy_banner {
 	margin-top: 50px;
