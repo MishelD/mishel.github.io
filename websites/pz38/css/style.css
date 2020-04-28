@@ -212,3 +212,6 @@ a {
 span {
 	text-align: center;
 }
+form {
+	display: none;
+}
