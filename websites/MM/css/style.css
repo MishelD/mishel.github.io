@@ -90,11 +90,19 @@ body {
 	padding: 5vh 2vw;
 	background-color: #F3FAFF;
 	box-shadow: 5px 5px 40px rgba(0, 66, 128, .3);
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.name h3{
+	padding-right: .3vw; 
+	color: #004280;
 }
 .profile_photo {
 	width: 30vh;
 	height: 45vh;
 	background-color: #004280;
+	margin-left: auto;
 	text-align: center;
 	color: #fff;
 }
