@@ -86,25 +86,108 @@ body {
 .page {
 	width: 70vw;
 	height: 190vh;
-	margin: 100px auto;
+	margin: 100px auto 100px 20vw;
 	padding: 5vh 2vw;
 	background-color: #F3FAFF;
 	box-shadow: 5px 5px 40px rgba(0, 66, 128, .3);
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
+	border-radius: 10px;
 }
 .name h3{
-	padding-right: .3vw; 
+	padding-right: 15px; 
 	color: #004280;
+	font-size: 25pt;
 }
 .profile_photo {
 	width: 30vh;
-	height: 45vh;
+	height: 38vh;
 	background-color: #004280;
+	background-image: url(https://thispersondoesnotexist.com/image);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	margin-left: auto;
 	text-align: center;
 	color: #fff;
+}
+
+.fast_message {
+	width: 16vw;
+	height: 50vh;
+	background-color: #F3FAFF;
+	position: fixed;
+	bottom: 0;
+	left: 2vw;
+	border-radius: 10px 10px 0% 0%;
+	box-shadow: 0px 0px 30px rgba(0, 66, 128, .3);
+}
+.head_fm {
+	height: 5vh;
+	display: flex;
+	justify-content: space-between;
+	color: #F3FAFF;
+	text-align: center;
+	background-color: #0069CC;
+	border-radius: 10px 10px 0% 0%;
+}
+.head_fm p {
+	font-weight: bold;
+	margin: auto;
+}
+.head_fm button {
+	font-weight: bold;
+	margin: auto;
+	width: 20px;
+	height: 20px;
+}
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+}
+
+.first_message .friend_avatar, .third_message .friend_avatar {
+	width: 30px;
+	height: 30px;
+	background-color: #9EBCD9;
+	font-size: 16pt;
+	color: #0084FF;
+	display:table-cell;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.first_message, .second_message, .third_message{
+	margin: 10px;
+}
+.message_block:not(:nth-child(2)) p {
+	margin: auto 10px auto 10px;
+	padding: 10px 10px 10px 20px;
+	background-color: #004280;
+	color: #CCE6FF;
+	border-radius: 50px 50px 50px 0px;
+	text-align: center;
+}
+.message_block:nth-child(2) p {
+	margin: auto 10px auto 10px;
+	padding: 10px 20px 10px 10px;
+	background-color: #004280;
+	color: #CCE6FF;
+	border-radius: 50px 50px 0px 50px;
+	text-align: center;
+}
+.user_avatar {
+	width: 30px;
+	height: 30px;
+	margin-left: auto;
+	background-image: url(https://thispersondoesnotexist.com/image);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
 }
 
 .rights {
