@@ -1,0 +1,8 @@
+::-webkit-input-placeholder {color:#9EBCD9; opacity:1;}/* webkit */
+::-moz-placeholder          {color:#9EBCD9; opacity:1;}/* Firefox 19+ */
+:-moz-placeholder           {color:#9EBCD9; opacity:1;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#9EBCD9; opacity:1;}/* IE */
+:focus::-webkit-input-placeholder {opacity:0;}/* webkit */
+:focus::-moz-placeholder          {opacity:0;}/* Firefox 19+ */
+:focus:-moz-placeholder           {opacity:0;}/* Firefox 18- */
+:focus:-ms-input-placeholder      {opacity:0;}/* IE */

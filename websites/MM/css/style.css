@@ -22,6 +22,7 @@ button {
 }
 body {
 	background-color: #CDE7FF;
+	height: 200vh;
 }
 .header {
 	width: 100%;
@@ -29,6 +30,8 @@ body {
 	background-color: #0084FF;
 	color: #fff;
 	display: flex;
+	position: fixed;
+	top: 0;
 }
 .logo {
 	margin: auto auto auto 10px;
@@ -57,7 +60,8 @@ body {
 	border-radius: 50px;
 	background-color: #004280;
 	height: 30px;
-	width: 100px;
+	width: 110px;
+	transition: width 1s;
 }
 .search_form button {
 	padding: 0px 8px;
@@ -70,11 +74,19 @@ body {
 	padding-left: 10px;
 	color: #fff;
 	width: 60px;
-	transition-property: width;
+	transition: width 1s;
 }
-.search_form:hover, .search_form:focus {
+.search_form:hover/*, .search_form:focus*/ {
 	width: 240px;
 }
 .search_form input:hover {
 	width: 140px;
+}
+
+.page {
+	width: 70%;
+	height: 190vh;
+	margin: 100px auto;
+	background-color: #F3FAFF;
+	box-shadow: 5px 5px 40px rgba(0, 66, 128, .3);
 }
