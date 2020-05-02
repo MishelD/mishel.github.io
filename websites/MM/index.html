@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru"  xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>MM</title>
 	<link rel="stylesheet" href="css/style.css">
+	 <style>
+	  ::-webkit-input-placeholder {color:#9EBCD9; opacity:1;}/* webkit */
+	  ::-moz-placeholder          {color:#9EBCD9; opacity:1;}/* Firefox 19+ */
+	  :-moz-placeholder           {color:#9EBCD9; opacity:1;}/* Firefox 18- */
+	  :-ms-input-placeholder      {color:#9EBCD9; opacity:1;}/* IE */
+	  :focus::-webkit-input-placeholder {opacity:0;}/* webkit */
+	  :focus::-moz-placeholder          {opacity:0;}/* Firefox 19+ */
+	  :focus:-moz-placeholder           {opacity:0;}/* Firefox 18- */
+	  :focus:-ms-input-placeholder      {opacity:0;}/* IE */
+	</style>
+	<script src="https://kit.fontawesome.com/ec22bbd471.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header class="header">
-		<h1>MM - social network</h1>
-		<form action="search">
-			<input type="search">
-			<input type="submit" value="Search">
-		</form>
+		<div class="logo">
+			<a href="index.html"><img src="svg/logo.svg" alt="MM social network logo" class="logo_svg"></a>
+		</div>
+		<div class="nav">
+			<a href="#my_page" class="my_page"><i class="fas fa-address-card"></i></a>
+			<a href="#friends" class="friends"><i class="fas fa-user-friends"></i></a>
+			<a href="#music" class="music"><i class="fas fa-music"></i></a>
+		</div>
+		<div class="search_nav">
+			<form action="" method="get" class="search_form">
+				<input type="text" placeholder="Search">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
 	</header>
 
 	<footer class="footer">
