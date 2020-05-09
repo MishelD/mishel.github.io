@@ -47,12 +47,13 @@ body {
 	margin: 2px 30px;
 	padding: 5px;
 }
+.menu {
+	margin: auto 30px auto auto;
+	padding: 5px;
+}
 .search_nav {
-	margin-left: auto;
-	margin-right: 0em;
-	margin-top: auto;
-	margin-bottom: auto;
-	width: 250px;
+	margin: auto 10px auto 0;
+	/*width: 250px;*/
 }
 .search_form {
 	display: flex;
@@ -76,11 +77,11 @@ body {
 	width: 60px;
 	transition: width 1s;
 }
-.search_form:hover/*, .search_form:focus*/ {
+.search_form input:focus + .search_form {
 	width: 240px;
 }
-.search_form input:hover {
-	width: 140px;
+.search_form input:hover, .search_form input:focus {
+	width: 190px;
 }
 
 .page {
@@ -95,17 +96,33 @@ body {
 	flex-wrap: wrap;
 	border-radius: 10px;
 }
+
+.left_column hr {
+	width: 30vw;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #9EBCD9; /* Цвет линии для остальных браузеров */
+    background-color: #9EBCD9; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
 .name h3{
 	padding-right: 15px; 
 	color: #004280;
 	font-size: 25pt;
 }
+.left_column h5 {
+	padding: 5px 0 5px 15px; 
+	color: #0069CC;
+}
+
+.right_column {
+	margin-left: auto;
+}
 .profile_photo {
 	width: 30vh;
 	height: 38vh;
 	background-color: #004280;
-	background-image: url(https://thispersondoesnotexist.com/image);
-	background-size: 100%;
+	background-image: url(../img/user_photo.jpg);
+	background-size: 110%;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-left: auto;
@@ -183,7 +200,7 @@ body {
 	width: 30px;
 	height: 30px;
 	margin-left: auto;
-	background-image: url(https://thispersondoesnotexist.com/image);
+	background-image: url(../img/user_photo.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
