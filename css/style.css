@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Comfortaa', cursive; Для заговоков
+   font-family: 'Nunito', sans-serif; Для обычного текста
+*/
+* {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
 }
-body{
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
 	max-width: 1920px;
 	max-height: 1080px
 }
 
-.title{
+.title {
 	background-image: url(../svg/title_shape.svg);
 	background-repeat: no-repeat;
 	font-family: 'Comfortaa', cursive;
