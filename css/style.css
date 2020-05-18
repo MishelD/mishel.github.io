@@ -10,18 +10,32 @@
 a {
 	text-decoration: none;
 	color: #000;
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
 }
 body {
 	max-width: 1920px;
-	max-height: 1080px
+	max-height: 1080px;
+	font-family: 'Nunito', sans-serif;
 }
 
 .title {
 	background-image: url(../svg/title_shape.svg);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	font-family: 'Comfortaa', cursive;
 	font: bold 49pt/54;
 	color: #FEFEFE;
 	margin-top: 70px;
 	margin-left: 127px;
+	min-width: 271px;
+	min-height: 161px;
+}
+.title h1 {
+	padding-left: 30px;
+	padding-top: 15px;
+}
+h2 {
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 50px;
 }
