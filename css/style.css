@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-
+*{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
 body{
 	max-width: 1920px;
 	max-height: 1080px
 }
 
 .title{
-	background-image: /svg/title_shape.svg;
+	background-image: url(../svg/title_shape.svg);
+	background-repeat: no-repeat;
 	font-family: 'Comfortaa', cursive;
-	font: bold 49pt/54 Comfortaa;
+	font: bold 49pt/54;
 	color: #FEFEFE;
-	padding-top: 70px;
-	padding-left: 127px;
+	margin-top: 70px;
+	margin-left: 127px;
 }
