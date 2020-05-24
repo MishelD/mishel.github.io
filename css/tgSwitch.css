@@ -1,0 +1,37 @@
+.themeSwitch {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: 600;
+	color: #000;
+	width: 100px;
+	margin-right: 72px;
+	margin-top: 12px;
+}
+.tgSwitch {
+	height: 35px;
+	width: 76px;
+	background: #E2E2E2;
+	border-radius: 50px;
+	box-shadow: 3px 1px 3px rgb(0, 0, 0, 0.16);
+	display: flex;
+	cursor: pointer;
+	padding: 5px;
+	transition: 0.3s;
+}
+.tgSwitch.active {
+	background: #50E83F;	
+}
+.tgSwitch > .slider {
+	background: #FFF;
+	border: 0;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	box-shadow: 3px 1px 3px rgb(0, 0, 0, 0.16);
+	transition: 0.3s;
+
+}
+.tgSwitch > input {
+	display: none;
+}
