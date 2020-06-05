@@ -10,6 +10,16 @@ body {
 	background-color: #FEFEFE;
 }
 
+.wrapper::before {
+	transform: rotate(0deg);
+    top: 55px;
+    left: 30px;
+}
+
 .title {
 	color: #000;
+}
+
+.item:hover a {
+	color: #2b2b2b;
 }

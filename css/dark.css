@@ -10,10 +10,20 @@ body {
 	background-color: #222134;
 }
 
+.wrapper::before {
+	transform: rotate(-36deg);
+    top: 29px;
+    left: 30px;
+}
+
 .title {
 	color: #FEFEFE;
 }
 
 .theme {
 	color: #FEFEFE;
+}
+
+.item:hover a {
+	color: #dbdbdb;
 }
