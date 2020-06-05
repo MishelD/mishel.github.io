@@ -16,6 +16,17 @@ body {
     left: 30px;
 }
 
+.square {
+	top: -77px;
+	left: 461px;
+	transform: rotate(24deg);
+}
+.triangle {
+	top: -95px;
+	left: 1024px;
+	transform: rotate(33deg);
+}
+
 .title {
 	color: #000;
 }

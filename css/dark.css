@@ -20,6 +20,17 @@ body {
 	color: #FEFEFE;
 }
 
+.square {	
+	top: -54px;
+	left: 426px;
+	transform: rotate(-33deg);
+}
+.triangle {
+	top: 6px;
+	left: 1031px;
+	transform: rotate(123deg);
+}
+
 .theme {
 	color: #FEFEFE;
 }
