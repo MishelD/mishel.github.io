@@ -36,3 +36,13 @@
 .tgSwitch > input {
 	display: none;
 }
+
+.tgSwitch:hover > .slider {
+	background: #F4F4F4;
+}
+.tgSwitch.active > .slider {
+	background: #222134;
+}
+.tgSwitch.active:hover > .slider {
+	background: #333247;
+}
