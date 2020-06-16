@@ -21,10 +21,6 @@ body {
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.hide {
-	display: none;
-}
-
 .wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -67,6 +63,33 @@ hr {
 	height: 10px;
 	width: 300px;
 	border: 0;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	cursor: default;
+}
+.skills div {
+	height: 30px;
+	width: 30px;
+	background: orange;
+	border-radius: 50%;
+	margin: auto;
+	transition: 0.3s;
+}
+.skills div img {
+	width: 30px;
+	filter: grayscale(1);
+
+}
+.skills div:hover img {
+	filter: grayscale(0);
 }
 
 /*     ФОН     */
@@ -145,4 +168,8 @@ hr {
 .image img:hover {
 	opacity: 0.8;
 	transform: scale(1.1, 1.1);
+}
+
+.hide {
+	display: none;
 }
