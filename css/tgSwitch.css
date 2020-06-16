@@ -8,6 +8,9 @@
 	margin-right: 72px;
 	margin-top: 12px;
 }
+.theme {
+	cursor: default;
+}
 .tgSwitch {
 	margin: 0 auto;
 	height: 35px;

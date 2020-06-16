@@ -54,12 +54,14 @@ body {
 	font-family: 'Comfortaa', cursive;
 	font-size: 20pt;
 	font-weight: 300;
+	cursor: default;
 }
 .title h2 {
 	margin: 0;
 	font-family: 'Comfortaa', cursive;
 	font-size: 13pt;
 	font-weight: 500;
+	cursor: default;
 }
 hr {
 	height: 10px;
@@ -100,17 +102,19 @@ hr {
 	font-family: 'Comfortaa', cursive;
 	font-weight: 600;
 	margin-bottom: 50px;
+	cursor: default;
 }
 
 .itembox {
 	display: flex;
+	align-items: flex-start;
 	flex-wrap: wrap;
-	align-content: stretch;
-	height: 100%;
+	width: 100%;
 }
 
 .item {
 	min-height: 200px;
+	max-width: 500px;
 	width: 30%;
 	text-align: center;
 	margin: 20px;
@@ -120,8 +124,11 @@ hr {
 .image {
 	position: relative;
 	overflow: hidden;
-	width: 30vw;
-	height: 25vh;
+	max-width: 500px;
+	max-height: 200px;
+	min-height: 150px;
+	width: 100%;
+	height: 70%;
 	background-color: #1a1329;
 	margin-bottom: 10px;
 }
